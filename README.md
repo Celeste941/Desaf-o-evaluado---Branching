@@ -30,3 +30,10 @@ git checkout development
 # Se Agrego los cambios al “stage”, y se realizo un último commit con un mensaje “errores corregidos
 git add .
 git commit -m "errores corregidos"
+
+## Crear repositorio en Github
+git remote add origin https://github.com/Celeste941/Desaf-o-evaluado---Branching.git
+
+## Realizar el push de el main y la rama
+git push --set-upstream origin development
+git push --set-upstream origin main
