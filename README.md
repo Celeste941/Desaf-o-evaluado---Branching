@@ -19,3 +19,14 @@ git add .
 
 # Se agrega el primer commit del proyecto
 git commit -m "este es mi primer comentario"
+
+# Se creo una rama llamada development
+git branch development
+
+# Se situo en la rama development
+git checkout development
+
+# Se modifico la imagen y el link para que se dirija a mi Github
+# Se Agrego los cambios al “stage”, y se realizo un último commit con un mensaje “errores corregidos
+git add .
+git commit -m "errores corregidos"
